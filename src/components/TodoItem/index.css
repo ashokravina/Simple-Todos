@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #000000;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ff0b37;
+  background-color: #ffffff;
+  border-radius: 9px;
+  height: 30px;
+  border: 2px solid #ff0b37;
+  
+  
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .paragraph {
+    font-size: 10px;
+  }
+  .button {
+    height: 20px;
+    font-size: 8px;
+    border-radius: 5px;
+    border: 1px solid #ff0b37;
+  }
+}

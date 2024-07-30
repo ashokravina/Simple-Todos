@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 80%;
+  min-height: 450px;
+  padding-top: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff8542;
+}
+.todo-container {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+@media (max-width: 576px) {
+  .bg-container {
+    height: auto;
+  }
+  .card-container {
+    height: auto;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .todo-container {
+    margin-left: 0px;
+    margin-right: 2px;
+  }
+}
